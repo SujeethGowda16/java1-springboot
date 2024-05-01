@@ -19,6 +19,11 @@ pipeline {
         }
 
         //CD
+        stage('Deploy to Dev'){
+            steps{
+                echo 'Deploy to Dev'
+            }
+        }          
         stage('Deploy to Staging'){
             steps{
                 echo 'Deploy to staging'                
