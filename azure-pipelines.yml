@@ -5,7 +5,6 @@
 
 trigger:
 - develop
-- feature/test
 - master
 
 pool:
