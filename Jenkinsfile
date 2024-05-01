@@ -18,7 +18,7 @@ pipeline {
             }
         }
 
-        #CD
+        //CD
         stage('Deploy to Staging'){
             steps{
                 echo 'Deploy to staging'                
