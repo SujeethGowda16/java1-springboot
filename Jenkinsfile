@@ -5,11 +5,13 @@ pipeline {
         stage('Build'){
             steps{
                 echo 'build'
+                sh 'mvn clean packages'
             }
         }
         stage('Test'){
             steps{
                 echo 'Test'
+                sh 'mvn test'
             }
         }
         stage('Quality Gate - Sonar Qube'){
