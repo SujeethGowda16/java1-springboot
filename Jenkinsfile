@@ -52,8 +52,5 @@ pipelines {
         success{
             echo 'success'
         }
-        aborted{
-            echo 'aborted'
-        }
     }
 }
